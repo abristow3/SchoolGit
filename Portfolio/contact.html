@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<!--
+    Name: Alex Bristow
+    Date Created: 08/10/2020 
+    Most recent revision: 08/12/2020 
+-->
+<html lang="en"> 
+    <head> 
+		<title>Contact</title>	
+		<link href="styles/main.css" rel="stylesheet" type="text/css" />
+    </head> 
+    
+    <body>
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+	
+		<nav>
+		<p><a href="index.html">Home</a></p>
+		<div class="clear-float"></div>
+		</nav>
+		
+		
+		<h2>Information Request</h2>
+		
+		<form action="submit.html" method="POST">
+			<label for="firstname">First Name:</label><br />
+				<input type="text" id="firstname" name="firstname"><br />
+			<label for="lastname">Last Name:</label><br />
+				<input type="text" id="lastname" name="lastname"><br />
+			<label for="phonenumber">Phone Number:</label><br />
+				<input type="text" id="phonenumber" name="phonenumber"><br />
+			<label for="contact">Best Time to Call:</label><br />
+				<select id="contact" name="contact">
+					<option value="default" selected>---select one---</option>
+					<option value="morning">Morning (8am to 12pm Eastern)</option>
+					<option value="afternoon">Afternoon (12pm to 5pm Eastern)</option>
+					<option value="evening">Evening (5pm to 8pm Eastern)</option>
+				</select>
+			<fieldset>
+				<legend>I am interested in (check all that apply)</legend><br />
+					<input type="checkbox" id="frontend" name="interest" value="frontend">
+						<label for="frontend">Front End Web Development</label><br />
+					<input type="checkbox" id="backend" name="interest" value="backend>
+						<label for="backend">Back End Web Development</label><br />
+					<input type="checkbox" id="database" name="interest" value="database">
+						<label for="database">Database Design</label><br />
+			</fieldset>
+			<fieldset>
+				<legend>I have filled in the client quetionnaire form:</legend><br />
+					<input type="radio" id="choice 1" name="questionnaire" value="yes">
+						<label for="choice1">Yes</label><br />
+					<input type="radio" id="choice2" name="questionnaire" value="yes">
+						<label for="choice2">No</label><br />
+			</fieldset>
+			<label for="info">Additional Information</label><br />
+				<textarea id="info" name="info"></textarea><br />
+			<input type="submit" name="submit" value="Submit">
+						
+						
+					
+
+
+        	<footer>			
+				<p>&copy; 2020 Alex Bristow. All rights reserved.</p>
+			</footer>
+    </body> 
+</html
