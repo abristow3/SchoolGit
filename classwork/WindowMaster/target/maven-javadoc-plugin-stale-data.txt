@@ -1,0 +1,25 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\Java\jdk-14.0.2\bin\javadoc.exe" @options @packages"
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\allclasses-index.html = 1600098329241
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\allpackages-index.html = 1600098329251
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\constant-values.html = 1600098329134
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\deprecated-list.html = 1600098329178
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\element-list = 1600098329103
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\help-doc.html = 1600098329276
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\index-all.html = 1600098329230
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\index.html = 1600098329267
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\member-search-index.js = 1600098329216
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\member-search-index.zip = 1600098329223
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\options = 1600098328547
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\overview-tree.html = 1600098329164
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\package-search-index.js = 1600098329189
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\package-search-index.zip = 1600098329200
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\packages = 1600098328547
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\script.js = 1600098329291
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\search.js = 1600098329300
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\stylesheet.css = 1600098329285
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\system-properties.html = 1600098329259
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\type-search-index.js = 1600098329205
+C:\Repos\ClassWork\WindowMaster\target\site\apidocs\type-search-index.zip = 1600098329210
