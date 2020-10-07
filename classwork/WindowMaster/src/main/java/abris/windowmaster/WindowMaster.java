@@ -16,11 +16,6 @@ public class WindowMaster {
         
         float height;
         float width;
-        String stringHeight;
-        String stringWidth;
-        String stringWindowCostPerSquareFoot;
-        String stringTrimPerFootCost;
-        String stringNumberOfWindows;
         float areaOfWindow;
         float costPerWindow;
         float peremeterOfWindow;
@@ -31,33 +26,17 @@ public class WindowMaster {
         float numberOfWindows;
         float totalCost;
         
-        Scanner myScanner = new Scanner(System.in);
-        System.out.println("Please enter the number of windows: ");
-        stringNumberOfWindows = myScanner.nextLine();
-        System.out.println("Please enter window Height: ");
-        stringHeight = myScanner.nextLine();
-        System.out.println("Please enter window Width: ");
-        stringWidth = myScanner.nextLine();
-        System.out.println("Please enter your cost per square foot ");
-        stringWindowCostPerSquareFoot = myScanner.nextLine();
-        System.out.println("Please enter your cost per linear foot of trim ");
-        stringTrimPerFootCost = myScanner.nextLine();
-        
-        height = Float.parseFloat(stringHeight);
-        width = Float.parseFloat(stringWidth);
-        windowCostPerSquareFoot = Float.parseFloat(stringWindowCostPerSquareFoot);
-        trimPerFootCost = Float.parseFloat(stringTrimPerFootCost);
-        numberOfWindows = Float.parseFloat(stringNumberOfWindows);
+        Scanner sc = new Scanner(System.in);
+        numberOfWindows = readValue("Please enter the number of windows: ");
+        height = readValue("Please enter window Height: ");
+        width = readValue("Please enter window Width: ");
+        windowCostPerSquareFoot = readValue("Please enter your cost per square foot ");
+        trimPerFootCost = readValue("Please enter your cost per linear foot of trim ");
 
         areaOfWindow = height * width;
         peremeterOfWindow = (height + width) * 2;
         totalCostOfTrim = trimPerFootCost * peremeterOfWindow;
         totalCostOfWindowArea = windowCostPerSquareFoot * areaOfWindow;
-        
-        
-        
-        
-        
         costPerWindow = totalCostOfTrim + totalCostOfWindowArea;
         totalCost = costPerWindow * numberOfWindows;
         
@@ -70,5 +49,18 @@ public class WindowMaster {
         System.out.println("The cost per window will be: " + costPerWindow);
         System.out.println("Your total cost: " + totalCost);
         
+    }
+    
+        public static float readValue(String prompt) {
+        // declare and initialize a Scanner variable
+        Scanner sc = new Scanner(System.in);
+        // print prompt to console
+        System.out.println(prompt);
+        // read value into String data type
+        String input = sc.nextLine();
+        // convert the String to a float
+        float floatVal = Float.parseFloat(input);
+        // return the float value
+        return floatVal;
     }
 }
